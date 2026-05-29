@@ -1,0 +1,9 @@
+# requirements.txt
+
+pandas
+xgboost
+scikit-learn
+fastapi
+uvicorn
+python-multipart
+requests 
