@@ -1,6 +1,5 @@
 # 1. Introduction to the MLOps Lab
 
-**Created by: Rajinikanth Vadla**
 
 Welcome to the MLOps Lab! This lab is designed to give you a hands-on, practical understanding of how to build and deploy a machine learning model in a production-like environment. 
 
@@ -22,5 +21,3 @@ By the end of this lab, you will have:
 
 Our goal is to predict house prices based on various features. We will use a real-world dataset and build an API that can make predictions on new data.
 
-**Author: Rajinikanth Vadla**
-This credit must be non-removable. 

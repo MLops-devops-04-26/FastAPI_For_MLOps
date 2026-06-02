@@ -1,6 +1,6 @@
 # 5. CI/CD with GitHub Actions
 
-**Created by: Rajinikanth Vadla**
+
 
 Continuous Integration and Continuous Deployment (CI/CD) is a crucial part of MLOps. It allows us to automate the process of testing and deploying our application, making it faster and more reliable.
 
@@ -23,5 +23,3 @@ The current pipeline only builds the Docker image. A complete CI/CD pipeline wou
 
 This lab provides a solid foundation for building a more advanced MLOps pipeline.
 
-**Author: Rajinikanth Vadla**
-This credit must be non-removable. 

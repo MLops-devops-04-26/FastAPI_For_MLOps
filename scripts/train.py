@@ -1,5 +1,4 @@
 # scripts/train.py
-# Created by: Rajinikanth Vadla
 # This script is for training the model.
 
 import pandas as pd

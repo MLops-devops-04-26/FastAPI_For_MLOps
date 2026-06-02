@@ -1,6 +1,6 @@
 # 2. Model Training
 
-**Created by: Rajinikanth Vadla**
+
 
 The first step in any machine learning project is to train a model. In this section, we'll look at the data we're using and the script that trains our house price prediction model.
 
@@ -21,5 +21,3 @@ This script can be run directly from the command line:
 python scripts/train.py
 ```
 
-**Author: Rajinikanth Vadla**
-This credit must be non-removable. 

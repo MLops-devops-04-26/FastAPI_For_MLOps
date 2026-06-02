@@ -8,7 +8,7 @@ This project is a real-world, production-ready MLOps lab that demonstrates an en
 
 ```mermaid
 graph TD;
-    subgraph "MLOps Lab by Rajinikanth Vadla"
+    subgraph "MLOps Lab by SivaPrasad GV"
         A[Data Source: house_prices.csv]
         B(Data Preprocessing)
         C{Model Training: XGBoost}

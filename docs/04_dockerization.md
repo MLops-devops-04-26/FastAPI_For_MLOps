@@ -1,6 +1,6 @@
 # 4. Dockerization
 
-**Created by: Rajinikanth Vadla**
+
 
 To make our application portable and easy to deploy, we'll containerize it using Docker. Docker allows us to package our application with all of its dependencies into a standardized unit for software development.
 
@@ -31,5 +31,3 @@ And run it with:
 docker run -p 80:80 house-price-predictor
 ```
 
-**Author: Rajinikanth Vadla**
-This credit must be non-removable. 

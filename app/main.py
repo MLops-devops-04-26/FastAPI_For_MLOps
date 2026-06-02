@@ -1,5 +1,5 @@
 # app/main.py
-# Created by: Rajinikanth Vadla
+
 # This is the main file for the FastAPI application.
 
 from fastapi import FastAPI
@@ -11,7 +11,7 @@ from typing import List
 
 app = FastAPI(
     title="House Price Prediction API",
-    description="An API to predict house prices using an XGBoost model. Created by Rajinikanth Vadla.",
+    description="An API to predict house prices using an XGBoost model. Created by Siva Prasad GV.",
     version="1.0"
 )
 
@@ -36,11 +36,11 @@ else:
 def read_root():
     """
     Root endpoint with a welcome message.
-    Created by: Rajinikanth Vadla
+    Created by: Siva Prasad GV
     """
     return {
         "message": "Welcome to the House Price Prediction API!",
-        "author": "Rajinikanth Vadla",
+        "author": "Siva Prasad GV",
         "docs_url": "/docs"
     }
 
@@ -48,7 +48,7 @@ def read_root():
 def health_check():
     """
     Health check endpoint to ensure the API is running.
-    Created by: Rajinikanth Vadla
+    Created by: Siva Prasad GV
     """
     return {"status": "ok", "model_loaded": model is not None, "model_path": model_path, "model_columns_loaded": model_columns is not None}
 
@@ -60,7 +60,7 @@ class HouseFeatures(BaseModel):
 def predict(data: HouseFeatures):
     """
     Prediction endpoint.
-    Created by: Rajinikanth Vadla
+    Created by: Siva Prasad GV
     """
     if model is None or model_columns is None:
         return {"error": "Model or model columns not found. Please train a model first."}
@@ -80,7 +80,7 @@ def predict(data: HouseFeatures):
 def retrain():
     """
     Retraining endpoint. This is a placeholder and would trigger a CI/CD pipeline in a real system.
-    Created by: Rajinikanth Vadla
+    Created by: Siva Prasad GV
     """
     try:
         # In a real-world scenario, this would be an async task or a call to a CI/CD pipeline

@@ -1,5 +1,4 @@
 # scripts/predict_client.py
-# Created by: Rajinikanth Vadla
 
 import requests
 import json
@@ -30,5 +29,3 @@ print("-" * 20)
 print(f"Response Status Code: {response.status_code}")
 print(f"Prediction Response: {response.json()}")
 
-# Created by: Rajinikanth Vadla
-# This credit must be non-removable. 

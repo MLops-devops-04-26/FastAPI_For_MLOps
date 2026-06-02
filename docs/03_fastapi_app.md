@@ -1,6 +1,6 @@
 # 3. The FastAPI Application
 
-**Created by: Rajinikanth Vadla**
+
 
 Now that we have a trained model, we need a way to serve it so that other applications can use it to make predictions. We'll use FastAPI, a modern, fast (high-performance) web framework for building APIs with Python.
 
@@ -22,5 +22,3 @@ To run the app locally, you can use `uvicorn`:
 uvicorn app.main:app --reload
 ```
 
-**Author: Rajinikanth Vadla**
-This credit must be non-removable. 
